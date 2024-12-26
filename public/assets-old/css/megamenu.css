@@ -1,0 +1,432 @@
+/* Existing Styles */
+
+/* Menu Styling */
+.menu {
+    column-gap: 10px;
+    margin: 0;
+  padding: 0;
+  display: flex;
+    /* align-items: center; */
+}
+
+.menu > li > a {
+    font-size: 1rem;
+    padding: 15px 22px;
+    text-transform: capitalize;
+    /* font-family: "Open Sans", sans-serif; */
+    color: var(--title-color);
+    font-weight: 500;
+}
+.menu > li > a span {
+    font-size: 0.75rem;
+    padding: 1px 5px;
+    color: var(--bg-white);
+    border-radius: 4px;
+}
+.menu > li > a span.style1 {
+    background-color: var(--brand-color);
+}
+.menu > li > a span.style2 {
+    background-color: var(--form-focus-color);
+}
+.menu > li > a i {
+    margin-right: 5px;
+}
+.menu > li > a:after {
+    right: 11px;
+}
+.menu > li > a::before {
+    right: 15px;
+}
+.menu--style1 li a {
+    color: var(--title-color);
+}
+.menu--style2 li a {
+    color: var(--bg-white);
+}
+
+/* Dropdown Submenu Styling */
+@media (min-width: 992px) {
+    .menu li {
+        /* position: relative; */
+        font-family: "Anek Telugu", sans-serif;
+    }
+    .menu li .submenu {
+        transition: all 0.3s ease-out;
+        /* transform: translateY(35px); */
+        /* position: relative; */
+        top: 100%;
+        left: 0;
+        z-index: 9;
+        background: var(--wh-color);
+        width: max-content;
+        padding: 0;
+        opacity: 1;
+        visibility: visible;
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.18); */
+        border-radius: 0.4rem;
+    }
+    .menu li .submenu li {
+        padding: 0;
+        font-family: "Anek Telugu", sans-serif;
+    }
+    .menu li .submenu li a {
+        font-size: 1rem;
+        padding: 6px 16px;
+        text-transform: capitalize;
+        /* font-family: "Open Sans", sans-serif; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: 400;
+        color: var(--title-color);
+        border-bottom: 1px solid rgba(var(--wh-color), 0.05);
+        border-radius: 0.3rem;
+        transition: all 0.3s ease-out;
+    }
+    .menu li .submenu li a span {
+        font-size: 0.75rem;
+        padding: 1px 5px;
+        color: var(--bg-white);
+        border-radius: 4px;
+    }
+    .menu li .submenu li a span.style1 {
+        background-color: var(--brand-color);
+        color: #0C263A;
+    }
+    .menu li .submenu li a span.style2 {
+        background-color: #000;
+    }
+    .menu li .submenu li a:hover, 
+    .menu li .submenu li a.active {
+        background: var(--wh-color);
+        padding-left:15px;
+        color: var(--brand-color);
+    }
+    .menu li .submenu li a:hover:after, 
+    .menu li .submenu li a:hover:before, 
+    .menu li .submenu li a.active:after, 
+    .menu li .submenu li a.active:before {
+        background: var(--wh-color);
+    }
+    .menu li .submenu li:last-child a {
+        border-bottom: none;
+    }
+    .menu li .submenu li .submenu {
+        left: 100%;
+        top: 0;
+    }
+    .menu li:hover > .submenu {
+        transform: translateY(15px);
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .menu li a {
+        padding: 10px 16px;
+    }
+}
+
+@media (max-width: 991px) {
+    .menu {
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        overflow: auto;
+        max-height: 400px;
+        transition: all ease 0.3s;
+        transform: scaleY(0);
+        transform-origin: top;
+        z-index: 999;
+        background: rgba(var(--wh-color), 0.99);
+        backdrop-filter: blur(20px);
+    }
+    .menu li {
+        width: 100%;
+        padding: 0;
+    }
+    .menu li a {
+        display: block;
+        padding: 10px 25px;
+        font-size: 15px;
+        text-transform: capitalize;
+        /* border-top: 1px solid var(--border-color-8); */
+        color: var(--title-color);
+    }
+    .menu li a:hover {
+        background: rgba(var(--wh-color), 0.6);
+    }
+    .menu li a span {
+        font-size: 0.75rem;
+        padding: 1px 5px;
+        color: var(--bg-white);
+        border-radius: 4px;
+    }
+    .menu li a span.style1 {
+        background-color: var(--brand-color);
+    }
+    .menu li a span.style2 {
+        background-color: var(--form-focus-color);
+    }
+    .menu li .submenu {
+        padding-inline-start: 20px;
+        /* display: none; */
+    }
+    .menu li .submenu li {
+        width: 100%;
+    }
+    .menu li .submenu li a {
+        font-family: "Anek Telugu", sans-serif;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 400;
+    }
+    .menu.active {
+        transform: scaleY(1);
+        box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.1);
+        background-color: var(--wh-color);
+    }
+}
+
+/* === Mega Menu Enhancements === */
+
+/* Ensure parent <li> is relative for absolute positioning of mega menu */
+
+@media (max-width: 768px) {
+    .menu--style1 > li {
+        position: relative;
+    }
+  }
+/* Mega Menu Wrapper Styling */
+.menu--style1 > li > .mega-menu {
+        /* margin-top: 9px; */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /*  width: 700px;Full width; adjust as needed */
+    background-color: var(--wh-color);
+    padding: 30px 15px;
+    display: none; /* Hidden by default */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    border-radius: 19px;
+    /* margin-left: -19rem;
+    margin-top: 0.1rem; */
+}
+
+/* Show Mega Menu on Hover */
+.menu--style1 > li:hover > .mega-menu {
+    display: block;
+}
+
+/* Utilize Bootstrap's Grid-like Flex Layout for Mega Menu Columns */
+.mega-menu .submenu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* Space between columns */
+    justify-content: space-between;
+}
+
+/* Define Columns within Mega Menu */
+.mega-menu .submenu > li {
+    flex: 1 1 200px; /* Adjust width as needed */
+    min-width: 200px;
+}
+
+/* Heading Styles within Mega Menu */
+.mega-menu .submenu > li > a {
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* margin-bottom: 15px; */
+    color: var(--brand-color);
+    text-decoration: none;
+}
+
+.mega-menu .submenu > li > a:hover {
+    color: var(--form-focus-color);
+}
+
+/* Submenu Styles within Mega Menu */
+.mega-menu .submenu .submenu-style {
+    display: block; /* Override existing styles if necessary */
+    padding: 0;
+    list-style: none;
+}
+
+.mega-menu .submenu .submenu-style li {
+    margin-bottom: 10px;
+}
+
+.mega-menu .submenu .submenu-style li a {
+    font-size: 1rem;
+    color: var(--title-color);
+    padding: 5px 0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.mega-menu .submenu .submenu-style li a:hover {
+    color: var(--brand-color);
+}
+
+/* Responsive Adjustments for Mega Menu */
+@media (max-width: 991px) {
+    /* Adjust Mega Menu for Mobile */
+    .menu--style1 > li > .mega-menu {
+        position: static;
+        width: 100%;
+        box-shadow: none;
+        padding: 15px;
+    }
+    .mega-menu .submenu {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .mega-menu .submenu > li {
+        flex: 1 1 100%;
+        min-width: 100%;
+    }
+}
+
+/* ----1 */
+
+.menu-item-has-children > a::after {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    font-family: "FontAwesome";
+    content: "\f107";
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .menu-item-has-children > a::after {
+      position: absolute;
+      content: "\f107";
+      right: -1px !important;
+      top: 9px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .menu-item-has-children > a::after {
+      position: absolute;
+      content: "\f107";
+      right: 7px !important;
+      top: 14px;
+    }
+  }
+  .menu-item-has-children:hover > a::after {
+    transform: rotate(180deg);
+  }
+  .menu-item-has-children.open > a::after {
+    transform: rotate(180deg);
+  }
+  
+  .menu-item-has-children.megamenu {
+    position: static;
+  }
+  .menu-item-has-children.megamenu .submenu {
+    width: 100%;
+  }
+  .menu-item-has-children.megamenu .submenu li .home-showcase__buttons a span {
+    color: #0C263A;
+    font-weight: 500;
+    font-size: 0.875rem;
+  }
+  .menu-item-has-children.megamenu .submenu li .home-showcase__buttons a:hover {
+    background-color: var(--brand-color);
+  }
+  
+  a.child-title {
+    font-weight: 600 !important;
+    color: var(--title-color);
+}
+
+/* breadcrumb */
+
+.page-header {
+    /* padding: 50px 0; */
+    text-align: center;
+}
+
+.background {
+    background-size: cover;
+    background-position: center;
+    padding: 80px 15px;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.breadcrumb {
+    justify-content: center;
+}
+
+.page-header__shape-item {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .background {
+        padding: 60px 15px;
+    }
+
+    .page-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .background {
+        padding: 40px 10px;
+    }
+
+    .page-title {
+        font-size: 1.8rem;
+    }
+}
+
+/* a.trk-btn.trk-btn--outline22 {
+    padding: 10px;
+    margin: 2px;
+} */
+
+
+
+
+.trk-btn-custom {
+    margin: 3px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 50px; /* Creates oval shape */
+    border: 2px solid transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.trk-btn--login {
+    background-color: white;
+    color: black;
+    border-color: black; /* Black outline for contrast */
+}
+
+.trk-btn--login:hover {
+    background-color: black;
+    color: white;
+}
+
+.trk-btn--register {
+    background-color: #00d094;
+    color: white;
+}
+
+.trk-btn--register:hover {
+    background-color: #01a374;
+}

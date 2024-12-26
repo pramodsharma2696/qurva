@@ -1,0 +1,28 @@
+@media(max-width: 767px) {
+    .about__wrapper {
+        text-align: center;
+    }
+    .feature--style1 .feature__wrapper {
+        text-align: center;
+    }
+    .banner__content-social {
+        display: none;
+    }
+    .banner__thumb {
+        display: none;
+    }
+    .banner__content {
+        /* background: url('/assets/images/banner/home1/1.png'); */
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        display: contents;
+    }
+    .banner__btn-group.btn-group {
+        /* align-items: center; */
+        justify-content: center;
+    }
+    ul.social {
+        justify-content: center;
+    }
+}
