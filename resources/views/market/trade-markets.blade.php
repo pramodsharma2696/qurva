@@ -76,11 +76,10 @@
                  <div class="col-md-7">
                         <div class="align-middle d-table-cell">
                             <h1 class="hd_tx">Currency Trading</h1>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>                            
+                            <h4>Forex Trading Made Simple with Qorva Markets</h4>
+                            <p>Welcome to Qorva Markets, your trusted partner in the dynamic world of forex trading. Whether you're a seasoned trader or just starting out, we provide the tools, insights, and guidance to help you navigate the currency trading market with confidence.</p>
+                            <h4>What is Forex Trading?</h4> 
+                            <p>Forex, or foreign exchange, is the global marketplace for trading national currencies. It’s the largest and most liquid financial market, with a daily trading volume exceeding $6 trillion. At Qorva Markets, we simplify forex trading strategies to make them accessible for all skill levels. From trading major forex currency pairs like EUR/USD and GBP/USD to exploring exotic pairs, our platform ensures you’re equipped to succeed.                            </p>   
                         </div>                 
                 </div>
             </div>
