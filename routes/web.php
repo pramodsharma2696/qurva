@@ -16,184 +16,83 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/faq', function () {
-    return view('faq');
-});
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-Route::get('/forex-trading', function () {
-    return view('forex-trading');
-});
-Route::get('/qorva-markets', function () {
-    return view('qorva-markets');
-});
-Route::get('/trade-forex', function () {
-    return view('trade-forex');
-});
 
 
-// Accounts
+
+// Accounts menu
 
 Route::get('/account-Types', function () {
-    return view('account-Types');
+    return view('account.account-Types');
 });
 Route::get('/financial-Transparency', function () {
-    return view('financial-Transparency');
+    return view('account.financial-Transparency');
 });
 Route::get('/standard-account', function () {
-    return view('standard-account');
+    return view('account.standard-account');
 });
 Route::get('/STP-Pro-Account', function () {
-    return view('STP-Pro-Account');
+    return view('account.STP-Pro-Account');
 });
 Route::get('/raw-spread-account', function () {
-    return view('raw-spread-account');
+    return view('account.raw-spread-account');
 });
 Route::get('/compare-account', function () {
-    return view('compare-account');
+    return view('account.compare-account');
 });
 Route::get('/execution', function () {
-    return view('execution');
+    return view('account.execution');
 });
 Route::get('/margin-requirements', function () {
-    return view('margin-requirements');
+    return view('account.margin-requirements');
 });
 Route::get('/rollover-rates', function () {
-    return view('rollover-rates');
+    return view('account.rollover-rates');
 });
 
-// System and Features
-
-
-Route::get('/trading-tools', function () {
-    return view('trading-tools');
-});
-
-Route::get('/currency-converter', function () {
-    return view('currency-converter');
-});
-
-Route::get('/margin-and-pip-calculator', function () {
-    return view('margin-and-pip-calculator');
-});
-Route::get('/pivot-points', function () {
-    return view('pivot-points');
-});
-
-
-// Markets
+// Markets menu
 
 
 Route::get('/trade-markets', function () {
-    return view('trade-markets');
+    return view('market.trade-markets');
 });
-
-Route::get('/Forex', function () {
-    return view('Forex');
+Route::get('/currency', function () {
+    return view('market.currency');
 });
-Route::get('/Indices', function () {
-    return view('Indices');
+Route::get('/indices', function () {
+    return view('market.indices');
 });
-Route::get('/Stocks', function () {
-    return view('Stocks');
+Route::get('/stocks', function () {
+    return view('market.stocks');
 });
-Route::get('/Cryptocurrency', function () {
-    return view('Cryptocurrency');
+Route::get('/cryptocurrency', function () {
+    return view('market.cryptocurrency');
 });
-Route::get('/Commodities', function () {
-    return view('Commodities');
+Route::get('/commodities', function () {
+    return view('market.commodities');
 });
-Route::get('/Gold-and-Silver', function () {
-    return view('Gold-and-Silver');
-});
-
-
-
-Route::get('/Popular-FX-Markets', function () {
-    return view('Popular-FX-Markets');
+Route::get('/gold-and-silver', function () {
+    return view('market.gold-and-silver');
 });
 
 
-Route::get('/EUR-USD', function () {
-    return view('EUR-USD');
+//company menu
+
+
+Route::get('/contact-us', function () {
+    return view('company.contactus');
 });
-Route::get('/GBP-USD', function () {
-    return view('GBP-USD');
+Route::get('/faq', function () {
+    return view('company.faq');
 });
-Route::get('/USD-JPY', function () {
-    return view('USD-JPY');
-});
-Route::get('/USD-CHF', function () {
-    return view('USD-CHF');
-});
-Route::get('/Gold', function () {
-    return view('Gold');
+Route::get('/testimonial', function () {
+    return view('company.testimonial');
 });
 
 
-
-Route::get('/Popular-Indices', function () {
-    return view('Popular-Indices');
+// Auth
+Route::get('/login', function () {
+    return view('auth.login');
 });
-Route::get('/Wall-Street', function () {
-    return view('Wall-Street');
-});
-Route::get('/US-SP-500', function () {
-    return view('US-SP-500');
-});
-Route::get('/US-Tech-100', function () {
-    return view('US-Tech-100');
-});
-Route::get('/Germany-40', function () {
-    return view('Germany-40');
-});
-
-
-
-
-Route::get('/Popular-Stocks', function () {
-    return view('Popular-Stocks');
-});
-Route::get('/Tesla', function () {
-    return view('Tesla');
-});
-Route::get('/Amazon', function () {
-    return view('Amazon');
-});
-Route::get('/Apple', function () {
-    return view('Apple');
-});
-Route::get('/Nvidia', function () {
-    return view('Nvidia');
-});
-
-
-
-Route::get('/Popular-Commodities', function () {
-    return view('Popular-Commodities');
-});
-Route::get('/US-Crude-Oil', function () {
-    return view('US-Crude-Oil');
-});
-Route::get('/UK-Crude-Oil', function () {
-    return view('UK-Crude-Oil');
-});
-
-
-// System and Features >> Trading Calculator
-
-
-Route::get('/margin-calculator', function () {
-    return view('calculator.margin-calculator');
-});
-Route::get('/pip-calculator', function () {
-    return view('calculator.pip-calculator');
-});
-Route::get('/profit-loss-calculator', function () {
-    return view('calculator.profit-loss-calculator');
-});
-Route::get('/currency-converter-calculator', function () {
-    return view('calculator.currency-converter-calculator');
+Route::get('/register', function () {
+    return view('auth.register');
 });
