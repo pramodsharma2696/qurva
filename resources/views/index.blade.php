@@ -101,7 +101,7 @@
                 <div class="col-md-4">
                     <div class="category-single text-center">
                         <div class="course-category-img">
-                            <a href="#"><img src="{{ asset('') }}uploads/cat-3.jpg" class="img-fluid" alt="image"></a>
+                            <a href="#"><img src="{{ asset('') }}assets/img/icon/signup.png" style="width:150px" class="img-fluid" alt="image"></a>
                         </div>
                         <div class="category-cont text-center">
                             <h4><a href="#">Sign Up & Create Account</a></h4>
@@ -113,7 +113,7 @@
                 <div class="col-md-4">
                     <div class="category-single text-center">
                         <div class="course-category-img">
-                            <a href="#"><img src="{{ asset('') }}uploads/cat-3.jpg" class="img-fluid" alt="image"></a>
+                            <a href="#"><img src="{{ asset('') }}assets/img/icon/fund.png" style="width:150px" class="img-fluid" alt="image"></a>
                         </div>
                         <div class="category-cont text-center">
                             <h4><a href="#">Fund Your Account</a></h4>
@@ -125,7 +125,7 @@
                 <div class="col-md-4">
                     <div class="category-single text-center">
                         <div class="course-category-img">
-                            <a href="#"><img src="{{ asset('') }}uploads/cat-3.jpg" class="img-fluid" alt="image"></a>
+                            <a href="#"><img src="{{ asset('') }}assets/img/icon/withdrawal.png" style="width:150px" class="img-fluid" alt="image"></a>
                         </div>
                         <div class="category-cont text-center">
                             <h4><a href="#">Enjoy Instant Withdrawals</a></h4>
@@ -371,7 +371,7 @@ a.show.active {
                 <!--start sec-heading-->
                 <div class="col-lg-8 offset-lg-2">
                     <div class="sec-heading text-center">
-                        <h2>What Says Our Students</h2>
+                        <h2>Testimonials</h2>
                     </div>
                 </div>
                 <!--end sec-heading-->
@@ -389,18 +389,13 @@ a.show.active {
                         <div class="testi-cont-inner">
                             <div class="testi-client-info">                        
                                 <div class="testi-client-details">
-                                    <h4>Shubham Sharma</h4>
-                                    <h6>Director</h6>
+                                    <h4>Sarah T. </h4>
+                                    <h6>Independent Forex Trader</h6>
                                 </div>
                             </div>
-                            <div class="testi-rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                            <p>Payment systems have undergone significant transformations over the years. From cash and checks to digital</p>
+                            <h4>"Effortless Trading Experience"</h4>
+                            <p>Qorva Markets transformed my trading journey with its intuitive interface and seamless execution. It's perfect for traders who value simplicity and speed</p>
+                            
                         </div>
                         </div>
                 </div>
@@ -411,18 +406,21 @@ a.show.active {
                         <div class="testi-cont-inner">
                             <div class="testi-client-info">                        
                                 <div class="testi-client-details">
-                                    <h4>Shubham Sharma</h4>
-                                    <h6>Director</h6>
+                                    <h4>John M.</h4>
+                                    <h6>Professional Day Trader
+                                    </h6>
                                 </div>
                             </div>
-                            <div class="testi-rating">
+                            <!-- <div class="testi-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
-                            </div>
-                            <p>Payment systems have undergone significant transformations over the years. From cash and checks to digital</p>
+                            </div> -->
+                            <h4>"Reliable and Transparent"</h4>
+                            <p>I’ve been using Qorva Markets for over a year, and their transparency in pricing and execution gives me confidence in every trade I place</p>
+                            
                         </div>
                         </div>
                 </div>
@@ -433,18 +431,15 @@ a.show.active {
                         <div class="testi-cont-inner">
                             <div class="testi-client-info">                        
                                 <div class="testi-client-details">
-                                    <h4>Shubham Sharma</h4>
-                                    <h6>Director</h6>
+                                    <h4>Emily R.</h4>
+                                    <h6>Cryptocurrency Enthusiast
+                                    </h6>
                                 </div>
                             </div>
-                            <div class="testi-rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                            <p>Payment systems have undergone significant transformations over the years. From cash and checks to digital</p>
+                            
+                            <h4>"Tools Tailored for Success"</h4>
+                            <p>The platform’s advanced tools, especially for forex pairs, are unmatched. Qorva truly understands the needs of retail traders like me</p>
+                           
                         </div>
                         </div>
                 </div>
@@ -455,18 +450,51 @@ a.show.active {
                         <div class="testi-cont-inner">
                             <div class="testi-client-info">                        
                                 <div class="testi-client-details">
-                                    <h4>Shubham Sharma</h4>
-                                    <h6>Director</h6>
+                                    <h4>Raj P.</h4>
+                                    <h6>Stock Market Investor
+                                    </h6>
                                 </div>
                             </div>
-                            <div class="testi-rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
+                            <h4>"Exceptional Customer Support"</h4>
+                            <p>Whenever I’ve needed help, Qorva’s customer support team has been there with quick and detailed responses. They’re a cut above the rest.</p>
+                            
+                        </div>
+                        </div>
+                </div>
+                 <div class="testi-single two">
+                    <div class="flx">
+                        <div class="img_t"><img src="assets/images/client-2.jpg" alt="image"></div>
+                        <div class="testi-cont-inner">
+                            <div class="testi-client-info">                        
+                                <div class="testi-client-details">
+                                    <h4> Linda W.</h4>
+                                    <h6>Advanced Retail Trader
+                                    </h6>
+                                </div>
                             </div>
-                            <p>Payment systems have undergone significant transformations over the years. From cash and checks to digital</p>
+                            <h4>"Perfect for Beginners and Pros"</h4>
+                            <p>I started as a beginner, and Qorva Markets’ demo accounts and educational resources helped me grow. Now, as an advanced trader, I still rely on their innovative features</p>
+                            
+                            
+                        </div>
+                        </div>
+                </div>
+                 <div class="testi-single two">
+                    <div class="flx">
+                        <div class="img_t"><img src="assets/images/client-2.jpg" alt="image"></div>
+                        <div class="testi-cont-inner">
+                            <div class="testi-client-info">                        
+                                <div class="testi-client-details">
+                                    <h4> Tom K</h4>
+                                    <h6> Scalper and High-Frequency Trader
+
+                                    </h6>
+                                </div>
+                            </div>
+                            <h4>"Lightning-Fast Execution"</h4>
+                            <p>I’ve never missed a market opportunity thanks to Qorva’s ultra-low latency and quick order execution. It’s a game-changer</p>
+                            
+                            
                         </div>
                         </div>
                 </div>

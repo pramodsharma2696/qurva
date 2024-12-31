@@ -445,6 +445,7 @@ img.banner_sec {
 }
 
 section.bg_sec {
+    text-align: center;
     background: #0f1e4b;
     background-image: linear-gradient(to right, #0f1e4b, #1e7ac8, #0f1e4b);
     padding: 60px 0px;

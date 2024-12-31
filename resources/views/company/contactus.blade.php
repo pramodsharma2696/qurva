@@ -32,7 +32,7 @@
                         </div>
                         <div class="contact-cont">
                             <h3>Email Address :</h3>
-                            <p>sales@XXXXXXXXXXX  |  info@XXXXXXXXXXX</p>
+                            <p>info@qorvamarkets.com</p>
                         </div>
                     </div>
                     <div class="contact-info-single">
@@ -41,7 +41,7 @@
                         </div>
                         <div class="contact-cont">
                             <h3>Phone Number :</h3>
-                            <p>+91 XXXXXXXXXXX</p>
+                            <p>971508596279</p>
                         </div>
                     </div>
                     <div class="contact-info-single">
@@ -49,8 +49,8 @@
                             <img src="assets/images/icons/map.svg" alt="image">
                         </div>
                         <div class="contact-cont">
-                            <h3>Our Location :</h3>
-                            <p>XXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXX</p>
+                            <h3>Physical Address :</h3>
+                            <p>Office 210 Al-Nasar Sports Club Dubai, UAE.</p>
                         </div>
                     </div>
                     <div class="contact-info-single">
@@ -58,8 +58,15 @@
                             <img src="assets/images/icons/map.svg" alt="image">
                         </div>
                         <div class="contact-cont">
-                            <h3>Our Location :</h3>
-                            <p>XXXXXXXX XXXXXXXXXXX XXXXXXXXXXXXXXX</p>
+                            <h3>Registered Address :</h3>
+                            <p>Qorva Markets LTD, Bonovo Road – Fomboni,
+                            Island of Mohéli – Comoros Union</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-single">
+                        <div class="contact-cont" style="margin-left: 58px;">
+                            <h3>Registration Number:</h3>
+                            <p>HT00324027</p>
                         </div>
                     </div>
 

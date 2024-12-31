@@ -86,7 +86,7 @@
                                 <li>
                                     <a href="#">Markets</a>
                                     <ul class="sub-menu">
-                                        <li id="Trade_Markets"><a href="{{ url('/trade-markets') }}">Trade Markets</a></li>
+                                        <!-- <li id="Trade_Markets"><a href="{{ url('/trade-markets') }}">Trade Markets</a></li> -->
                                         <li id="Currency"><a href="{{ url('/currency') }}">Currency</a></li>
                                         <li id="Indices"><a href="{{ url('/indices') }}">Indices</a></li>
                                         <li id="Stocks"><a href="{{ url('/stocks') }}">Stocks</a></li>
@@ -113,8 +113,8 @@
                                     <ul class="sub-menu">
                                         <li><a href="{{ url('/contact-us') }}">Contactus</a></li>
                                         <li><a href="{{ url('/faq') }}">Faq</a></li>
-                                        <li><a href="{{ url('/blog') }}">Blog</a></li>
-                                        <li><a href="{{ url('/testimonial') }}">Testimonial</a></li>
+                                        <!-- <li><a href="{{ url('/blog') }}">Blog</a></li> -->
+                                        <!-- <li><a href="{{ url('/testimonial') }}">Testimonial</a></li> -->
                                     </ul>
                                 </li>
                             </ul>
