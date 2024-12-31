@@ -1,23 +1,36 @@
 @extends('master')
 @section('contents')
-<section class="page-banner-area" style="background-image:url(assets/images/banner-1.jpg)">
-    <div class="container">
-        <div class="row">
-            <!--start heading-->
-            <div class="col-lg-10 offset-lg-1">
-                <div class="banner-content text-center">
-                    <h1>Indices</h1>
-                    <p><a href="#">Home</a> <span> &gt; </span>Indices</p>
+ <!--start hero area-->
+ <section class="hero-area two" style="background-image: url(uploads/banner-5.jpg);padding: 100px 0;">
+        <div class="container">
+            <div class="row">
+                <!--start heading-->
+                <div class="col-lg-10">
+                    <div class="caption-content two">
+                        
+                        <h2>Indices Trading with<br> Qorva Markets
+                        </h2>
+                        <p>Experience seamless trading with Qorva Markets, where global stock market indices are just a click away. Whether you're tracking the performance of the S&P 500, analysing trends in the FTSE 100, or exploring Asian markets like the Nikkei 225, our platform equips you with the tools and insights to trade indices efficiently.                        </p>
+                        <ul>
+                            <li><a href="#">Register</a></li>
+                            <li><a class="btn-bg" href="#">Try Demo</a></li>
+                        </ul>
+                        <img class="banner_sec" src="{{ asset('') }}uploads/banner1.png">
+                    </div>
                 </div>
+                <!--end heading-->
             </div>
-            <!--end heading-->
         </div>
-    </div>
-</section>
+    </section>
+
+
+    
+
+    <!--end hero area-->
 
 <section class="about-area c_text">
     <div class="container">
-        <div class="row">
+        <div class="row pb-5">
 
             <div class="col-md-6">
                 <div class="about-img1">
@@ -35,8 +48,8 @@
                 <p>Indices trading allows you to speculate on the performance of a group of stocks represented by a specific market index. Popular indices like the Dow Jones, NASDAQ 100, and DAX 40 provide a snapshot of the market’s overall health and economic trends. At Qorva Markets, we simplify stock market indices trading with intuitive tools and robust analytics.</p>
             </div>
         </div>
-        <br>
-        <div class="row">
+        
+        <div class="row pt-5 pb-5">
             <div class="col-md-6">
                 <div class="align-middle d-table-cell">
                     <h5 class="lg_font">Why Trade Indices with Qorva Markets?</h5>
@@ -82,8 +95,8 @@
         </div>
 
             <!-- | -->
-            <br><br><br>
-            <div class="row">
+           
+            <div class="row pt-5 pb-5">
             <div class="col-md-6">
                 <div class="align-middle d-table-cell">
                     <h5 class="lg_font">Features Tailored for Indices Traders</h5>
@@ -104,8 +117,8 @@
 
                 </div>
             </div>
-            <br><br><br>
-            <div class="row">
+            
+            <div class="row pt-5 pb-5">
                 <div class="col-md-6">
                     <div class="about-img1">
                         <img src="{{ asset('') }}uploads/img2.jpg" class="img_res" alt="image">
@@ -118,22 +131,19 @@
                     <p>- Tutorials on how to trade indices.</p>
                     <p>- Step-by-step guides to creating effective indices trading strategies.</p>
                     <p>- Risk management techniques tailored for new traders.</p>
+                </div>
 
-                    <h4>Advanced Analytics for Professionals</h4>
+            </div>
+            <div class="row pt-5 ">
+                <div class="col-md-12">
+                <h4>Advanced Analytics for Professionals</h4>
                     <p>Dive deep with:</p>
                     <p>- Tools for identifying indices trading opportunities.</p>
                     <p>- Trend analysis across multiple markets.</p>
                     <p>- Predictive algorithms for indices market movements.</p>
                 </div>
-
             </div>
         </div>
-
-
-            <br><br><br>
-            
-            
-
 
             <div class="row">
                 <div class="col-lg-12">
