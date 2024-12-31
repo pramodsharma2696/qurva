@@ -1,6 +1,6 @@
 @extends('master')
 @section('contents')
-<!--end header-->
+    <!--end header-->
     <!--start hero area-->
     <section class="hero-area two" style="background-image: url(uploads/banner-5.jpg);">
         <div class="container">
@@ -23,40 +23,7 @@
     </section>
 
     <div class="marque_data">
-    <div class="tradingview-widget-container" style="width: 100%; height: 100px;">
-                        <div class="tradingview-widget-container__widget"></div>
-
-                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-                            {
-                                "symbols": [{
-                                        "proName": "FX_IDC:GBPUSD",
-                                        "title": "GBP to USD"
-                                    },
-                                    {
-                                        "proName": "FX_IDC:USDJPY",
-                                        "title": "USD to JPY"
-                                    },
-                                    {
-                                        "proName": "FX_IDC:AUDUSD",
-                                        "title": "AUD to USD"
-                                    },
-                                    {
-                                        "proName": "OANDA:XAUUSD",
-                                        "title": "Gold Spot"
-                                    },
-                                    {
-                                        "proName": "BITSTAMP:LTCUSD",
-                                        "title": "Litecoin"
-                                    }
-                                ],
-                                "showSymbolLogo": true,
-                                "isTransparent": false,
-                                "displayMode": "adaptive",
-                                "colorTheme": "light",
-                                "locale": "en"
-                            }
-                        </script>
-                    </div>
+      <marquee>  <span>Welcome to abcd</span></marquee>
     </div>
     <div class="tx_btm">Powerful Platform That You Can Trust</div>
 
@@ -76,11 +43,13 @@
                  <div class="col-md-7">
                         <div class="align-middle d-table-cell">
                             <h1 class="hd_tx">Currency Trading</h1>
-                            <h4>Forex Trading Made Simple with Qorva Markets</h4>
+                            <div class="align-middle d-table-cell">
+                            <h5 class="lg_font">Forex Trading Made Simple with Qorva Markets</h5>
                             <p>Welcome to Qorva Markets, your trusted partner in the dynamic world of forex trading. Whether you're a seasoned trader or just starting out, we provide the tools, insights, and guidance to help you navigate the currency trading market with confidence.</p>
-                            <h4>What is Forex Trading?</h4> 
-                            <p>Forex, or foreign exchange, is the global marketplace for trading national currencies. It’s the largest and most liquid financial market, with a daily trading volume exceeding $6 trillion. At Qorva Markets, we simplify forex trading strategies to make them accessible for all skill levels. From trading major forex currency pairs like EUR/USD and GBP/USD to exploring exotic pairs, our platform ensures you’re equipped to succeed.                            </p>   
-                        </div>                 
+                        </div>
+                        <h5 class="lg_font">What is Forex Trading?</h5>
+                        <p>Forex, or foreign exchange, is the global marketplace for trading national currencies. It’s the largest and most liquid financial market, with a daily trading volume exceeding $6 trillion. At Qorva Markets, we simplify forex trading strategies to make them accessible for all skill levels. From trading major forex currency pairs like EUR/USD and GBP/USD to exploring exotic pairs, our platform ensures you’re equipped to succeed.</p>
+                </div>                 
                 </div>
             </div>
         </div>
@@ -288,4 +257,9 @@
         </div>
     </section>
 
-    @endsection
+
+
+
+
+ 
+@endsection

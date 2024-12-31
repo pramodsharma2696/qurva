@@ -1,6 +1,5 @@
-
-   @extends('master')
-   @section('contents')
+@extends('master')
+@section('contents')
 <section class="page-banner-area" style="background-image:url(assets/images/banner-1.jpg)">
         <div class="container">
             <div class="row">
@@ -20,84 +19,149 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-5">
+                <div class="col-md-6">
                     <div class="about-img1">
                         <img src="{{ asset('') }}uploads/img2.jpg" class="img_res" alt="image">
                          
                     </div>
                 </div>
 
-                 <div class="col-md-7">
+                 <div class="col-md-6">
                         <div class="align-middle d-table-cell">
-                            <h1 class="hd_tx">Stock trading with CFDs</h1>
-                            <p>Tesla, Amazon, Apple, Nio, Nvidia – trade these corporate powerhouses along with thousands of other stock CFDs at your fingertips.</p>                            
-                        </div>                 
+                            <h5 class="lg_font">Trade Stocks Confidently with Qorva Markets</h5>
+                            <p>Welcome to Qorva Markets, your gateway to the exciting world of **stock trading**. Whether you're an experienced trader or exploring stock investments for the first time, we offer a platform built for simplicity, performance, and profitability.</p>
+                        </div>
+                        <h5 class="lg_font">What is Stock Trading?</h5>
+                        <p>Stock trading involves buying and selling shares of publicly traded companies. It’s a powerful way to grow wealth, leverage market opportunities, and diversify your portfolio. At Qorva Markets, we make trading seamless, providing access to global stock markets with cutting-edge tools and resources for informed decision-making.</p>
                 </div>
             </div>
-            <br><br><br>
+            <br>
+            <div class="row">
+                <div class="col-lg-12"><h5 class="lg_font_color">Why Choose Qorva Markets for Stock Trading?</h5></div>
+                <div class="col-lg-6">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">1. Access to Global Markets</h5>
+                        <p>Trade stocks from leading markets worldwide, including:<br>
+- US Stocks: Apple, Tesla, Amazon, and more.<br>
+- European Equities: Nestlé, Volkswagen, and LVMH.<br>
+- Asian Markets: Alibaba, Toyota, and Samsung.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">2. Simplified Trading Tools</h5>
+                        <p>Our platform is designed to meet the needs of all traders:<br>
+- Real-time stock market analysis for faster decisions.<br>
+- Customisable stock trading strategies tailored to your goals.<br>
+- Advanced charts and indicators for tracking stock trends.
+
+                        </p>
+                    </div>
+                </div>
+            </div> 
+
             <div class="row">
                 <div class="col-lg-6">
                     <div class="sdo_div">
-
-                        <h4>Go long or short</h4>
-                        <p>When you trade indices with us, you can profit from both rising and falling markets.</p>
-
-                        <h4>Take advantage of leverage</h4>
-                        <p>You only have to put up a fraction of the index price to start trading. Leverage can magnify your profits and your losses.</p>
-
-                        <h4>Is there a difference between stocks and shares?</h4>
-                        <p>Shares have a few different names. They’re also referred to as stocks or equities. They all mean the same thing and there’s no difference between them</p>
-
+                        <h5 class="lg_font">3. Competitive Pricing</h5>                        
+                            <p>Enjoy low spreads, transparent fees, and cost-effective trading, ensuring more of your investment works for you.</p>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="about-img1"><br><br><br>
-                        <img src="{{ asset('') }}uploads/indices-explained.png" class="img_res" alt="image">
-                         
-                    </div>
-                </div>
-            </div>
-
-            <br><br><br>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="about-img1">
-                        <img src="{{ asset('') }}uploads/m2.png" class="img_res" alt="image">
-                         
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="about-img1">
-                        <img src="{{ asset('') }}uploads/m2.png" class="img_res" alt="image">
-                         
-                    </div>
-                </div>
-
                 <div class="col-lg-6">
                     <div class="sdo_div">
+                        <h5 class="lg_font">4. Secure and Reliable</h5>
+                        <p>Trade with peace of mind using our secure platform, protecting your account and transactions with the highest standards of security.
 
-                        <h4>Award-winning mobile app</h4>
-                        <p>Designed for instant control wherever you are, enjoy one-tap trading, intelligent market tools and a customizable layout to suit your trading style.</p>
+                        </p>
+                    </div>
+                </div>
+            </div> 
 
-                        <h4>TradingView Charts</h4>
-                        <p>80+ indicators, 11 chart types and 14 timeframes</p>
 
-                        <h4>Performance Analytics</h4>
-                        <p>Analyze your decision-making with the latest behavioural science technology</p>
+            <div class="row">
+                <div class="col-lg-12"><h5 class="lg_font_color">Features of Qorva Markets’ Stock Trading Platform</h5></div>
+                <div class="col-lg-6">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">Customisable Trading Dashboards</h5>
+                        <p>Stay in control with intuitive dashboards that allow you to manage and monitor your stock portfolio effortlessly.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">Market Insights and Analytics</h5>
+                        <p>Stay updated with expert-driven insights, including:<br>
+- Breaking news impacting stock prices.<br>
+- Stock trading tips and strategies.<br>
+- Regular updates on market-moving events.
+                        </p>
+                    </div>
+                </div>
+            </div> 
 
-                        <h4>Total Control</h4>
-                        <p>Customize your notifications and alerts to stay on top of the markets</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">Educational Resources</h5>
+                        <p>
+                            Whether you're a beginner or an advanced trader, our resources help you master:<br>
+- How to trade stocks effectively.<br>
+- Strategies for reducing risks in volatile markets.<br>
+- Long-term vs. short-term trading approaches.
 
-                        <h4>Trading Research</h4>
-                        <p>Access integrated market analysis, Reuters news & a full economic calendar</p>
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">Leverage and Margin Options</h5>
+                        <p>Maximise your opportunities with flexible leverage options, allowing you to trade stocks with minimal capital requirements.
+                        </p>
+                    </div>
+                </div>
+            </div> 
+
+
+            <div class="row">
+                <div class="col-lg-12"><h5 class="lg_font_color">The Qorva Advantage in Stock Trading</h5></div>
+                <div class="col-lg-6">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">Innovative Technology</h5>
+                        <p>Qorva Markets integrates cutting-edge technology to offer:<br>
+- Real-time market data.<br>
+- Automated trading solutions for better efficiency.<br>
+- Tools for identifying high-performing stocks.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">For Every Type of Investor</h5> 
+                        <p>- New Investors: Learn the basics with beginner-friendly features and guides.<br>
+- Experienced Traders: Access advanced analytics and high-speed execution for superior trading.<br>
+- Passive Investors: Build a portfolio with long-term growth potential.
+</p>
+                    </div>
+                </div>
+            </div> 
  
-
+   <div class="row">
+                <div class="col-lg-6">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">Start Your Stock Trading Journey Today</h5>
+                        <p>Join Qorva Markets and unlock the potential of global stock markets. From day trading stocks to long-term investments, our platform equips you with everything you need to succeed.
+                        </p>
                     </div>
                 </div>
-                
-            </div>
-
+                <div class="col-lg-6">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">Sign Up Now and experience a smarter, more efficient way to trade stocks.</h5> 
+                    </div>
+                </div>
+            </div> 
 
         </div>
     </section>

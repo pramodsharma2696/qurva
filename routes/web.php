@@ -84,6 +84,9 @@ Route::get('/contact-us', function () {
 Route::get('/faq', function () {
     return view('company.faq');
 });
+Route::get('/blog', function () {
+    return view('company.blog');
+});
 Route::get('/testimonial', function () {
     return view('company.testimonial');
 });

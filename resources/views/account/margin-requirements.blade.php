@@ -21,7 +21,7 @@
             <div class="row">              
                 <div class="col-lg-12">
                     <div class="sdo_div_sec">
-                        <h4>View Margins for Different Account Types & Markets</h4>
+                        <h5 class="lg_font_color">View Margins for Different Account Types & Markets</h5>
                         <p>MMR on MetaTrader could be higher. The larger the trade size, the higher the risk level associated with the trade. Therefore, we may increase our margin requirements for larger size trades or any additional trades in that instrument. To do this, Qorva Markets increases the size of the margin requirement at specific quantity levels, known as step margin levels. You can view a market’s step margin levels in its Market Information Sheet within the Qorva Markets desktop platform.</p>
 
                         <p>Step margins are not present in MetaTrader platforms.</p>

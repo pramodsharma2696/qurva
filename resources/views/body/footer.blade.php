@@ -9,7 +9,7 @@
                     <!--start footer widget-->
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-widget logo">
-                            <a href="#"><img src="uploads/logo.png" alt="logo"></a>
+                            <a href="{{ url('/') }}"><img src="{{ asset('') }}uploads/logo.png" alt="logo"></a>
                              
                             <h6>Follow Us</h6>
                             <ul class="footer-social-icons">
@@ -27,12 +27,12 @@
                         <div class="footer-widget footer-cat">
                             <h4>Account Types</h4>
                             <ul>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Standard Account</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>RAW Spread Account</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>STP Pro Account</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Execution</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Margin Requirements</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Rollover Rates</a></li>
+                                <li><a href="{{ url('/standard-account') }}"><i class="fa fa-angle-right"></i>Standard Account</a></li>
+                                <li><a href="{{ url('/raw-spread-account') }}"><i class="fa fa-angle-right"></i>RAW Spread Account</a></li>
+                                <li><a href="{{ url('/STP-Pro-Account') }}"><i class="fa fa-angle-right"></i>STP Pro Account</a></li>
+                                <li><a href="{{ url('/execution') }}"><i class="fa fa-angle-right"></i>Execution</a></li>
+                                <li><a href="{{ url('/margin-requirements') }}"><i class="fa fa-angle-right"></i>Margin Requirements</a></li>
+                                <li><a href="{{ url('/rollover-rates') }}"><i class="fa fa-angle-right"></i>Rollover Rates</a></li>
                             </ul>
                         </div>
                     </div>
@@ -41,12 +41,12 @@
                         <div class="footer-widget footer-cat">
                             <h4>Markets</h4>
                             <ul>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Currecncy</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Indices</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Stocks</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Cryptocurrency</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Commodities</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Gold and Silver</a></li>
+                                <li><a href="{{ url('/currency') }}"><i class="fa fa-angle-right"></i>Currecncy</a></li>
+                                <li><a href="{{ url('/indices') }}"><i class="fa fa-angle-right"></i>Indices</a></li>
+                                <li><a href="{{ url('/stocks') }}"><i class="fa fa-angle-right"></i>Stocks</a></li>
+                                <li><a href="{{ url('/cryptocurrency') }}"><i class="fa fa-angle-right"></i>Cryptocurrency</a></li>
+                                <li><a href="{{ url('/commodities') }}"><i class="fa fa-angle-right"></i>Commodities</a></li>
+                                <li><a href="{{ url('/gold-and-silver') }}"><i class="fa fa-angle-right"></i>Gold and Silver</a></li>
                             </ul>
                         </div>
                     </div>
@@ -55,9 +55,11 @@
                         <div class="footer-widget footer-cat">
                             <h4>Quick links</h4>
                             <ul>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Home</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>About us</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Contact Us</a></li>
+                                <li><a href="{{ url('/') }}"><i class="fa fa-angle-right"></i>Home</a></li>
+                                <li><a href="{{ url('/contact-us') }}"><i class="fa fa-angle-right"></i>Contact Us</a></li>
+                                <li><a href="{{ url('/faq') }}"><i class="fa fa-angle-right"></i>Faq</a></li>
+                                <li><a href="{{ url('/blog') }}"><i class="fa fa-angle-right"></i>Blog</a></li>
+                                <li><a href="{{ url('/testimonial') }}"><i class="fa fa-angle-right"></i>Testimonial</a></li>
                             </ul>
                         </div>
                     </div>

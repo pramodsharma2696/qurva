@@ -1,6 +1,5 @@
 @extends('master')
 @section('contents')
-   
 <section class="page-banner-area" style="background-image:url(assets/images/banner-1.jpg)">
         <div class="container">
             <div class="row">
@@ -16,96 +15,187 @@
         </div>
     </section>
 
+
 <section class="about-area c_text">
         <div class="container">
             <div class="row">
 
-                <div class="col-md-5">
+                <div class="col-md-6">
                     <div class="about-img1">
                         <img src="{{ asset('') }}uploads/img2.jpg" class="img_res" alt="image">
                          
                     </div>
                 </div>
 
-                 <div class="col-md-7">
+                 <div class="col-md-6">
                         <div class="align-middle d-table-cell">
-                            <h1 class="hd_tx">Commodities trading via CFDs</h1>
-                            <p>Commodities like oil and wheat offer traders the opportunity to speculate in new markets and to hedge against inflation. Go long or short on CFDs - Get competitive spreads - Trade without the need for a digital wallet.</p>                            
-                        </div>                 
+                            <h5 class="lg_font">Trade Commodities with Qorva Markets</h5>
+                            <p>Explore the world of commodity trading with Qorva Markets, your trusted platform for trading valuable assets like gold, oil, natural gas, and agricultural products. Our platform is designed for ease of use, empowering traders of all levels to capitalise on opportunities in the global commodity markets.</p>
+                        </div>
+                        <h5 class="lg_font">What is Commodity Trading?</h5>
+                        <p>Commodity trading involves buying and selling physical goods or contracts based on raw materials like precious metals, energy resources, and agricultural products. It’s a dynamic market that allows traders to hedge risks, diversify their portfolios, and capitalise on price movements influenced by global supply and demand.</p>
                 </div>
             </div>
-            <br><br><br>
+            <br>
+            <div class="row">
+                <div class="col-lg-12"><h5 class="lg_font_color">Why Trade Commodities with Qorva Markets?</h5></div>
+                <div class="col-lg-6">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">1. Access to Diverse Commodity Markets</h5>
+                        <p>Trade a broad spectrum of commodities, including:<br>
+- Precious Metals: Gold, Silver, Platinum.<br>
+- Energy: Crude Oil, Natural Gas, Heating Oil.<br>
+- Agricultural Products: Coffee, Corn, Wheat, Sugar.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">2. Real-Time Market Insights</h5>
+                        <p>Our platform equips traders with live market data, price charts, and expert analysis to identify profitable trading opportunities.
+
+                        </p>
+                    </div>
+                </div>
+            </div> 
+
             <div class="row">
                 <div class="col-lg-6">
                     <div class="sdo_div">
-
-                        <h2>Commodities explained</h2>
-
-
-
-                        <h4>Futures and spots</h4>
-                        <p>Trade on commodities using either futures or spot contracts.</p>
-
-                        <h4>Go long or short</h4>
-                        <p>When you trade commodities via CFDs with us, you can profit from both rising and falling markets.</p>
-
-                        <h4>Take advantage of leverage</h4>
-                        <p>You only have to put up a fraction of the commodity price to start trading. However, please note that leverage can magnify both your profits and losses.</p>
-
+                        <h5 class="lg_font">3. Flexible Trading Options</h5>                        
+                            <p>Whether you're interested in long-term investments or short-term trades, Qorva Markets offers the tools and support to meet your trading objectives.</p>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="about-img1">
-                        <img src="{{ asset('') }}uploads/trade-crypto-cfds.webp" class="img_res" alt="image">
-                         
-                    </div>
-                </div>
-            </div>
-
-            <br><br><br>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="about-img1">
-                        <img src="{{ asset('') }}uploads/m2.png" class="img_res" alt="image">
-                         
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="about-img1">
-                        <img src="{{ asset('') }}uploads/m2.png" class="img_res" alt="image">
-                         
-                    </div>
-                </div>
-
                 <div class="col-lg-6">
                     <div class="sdo_div">
+                        <h5 class="lg_font">4. Secure and Transparent Transactions</h5>
 
-                        <h4>Award-winning mobile app</h4>
-                        <p>Designed for instant control wherever you are, enjoy one-tap trading, intelligent market tools and a customizable layout to suit your trading style.</p>
+                        <p>Enjoy a reliable trading environment with advanced encryption and clear pricing policies.
 
-                        <h4>TradingView Charts</h4>
-                        <p>80+ indicators, 11 chart types and 14 timeframes</p>
 
-                        <h4>Performance Analytics</h4>
-                        <p>Analyze your decision-making with the latest behavioural science technology</p>
+                        </p>
+                    </div>
+                </div>
+            </div> 
 
-                        <h4>Total Control</h4>
-                        <p>Customize your notifications and alerts to stay on top of the markets</p>
 
-                        <h4>Trading Research</h4>
-                        <p>Access integrated market analysis, Reuters news & a full economic calendar</p>
+            <div class="row">
+                <div class="col-lg-12"><h5 class="lg_font_color">Features of the Qorva Markets Commodity Trading Platform
+                    </h5></div>
+                <div class="col-lg-6">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">Advanced Analytical Tools</h5>
+                        <p>Monitor market trends and price movements using sophisticated analytics, helping you make well-informed trading decisions.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">Leverage and Margin Trading</h5>
+                        <p>Enhance your buying power with flexible leverage options, allowing you to trade commodities without needing the full capital upfront.
+                        </p>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">Risk Management Solutions</h5>
+                        <p>Protect your investments with tools like stop-loss orders and automated trading strategies.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">Comprehensive Educational Resources</h5>
+                        <p>Learn the fundamentals of commodity trading with our extensive guides, including:<br>
+- How to trade commodities online.<br>
+- Strategies for trading gold, oil, and agricultural commodities.<br>
+- Understanding commodity futures and options.
+                        </p>
+                    </div>
+                </div>
+            </div> 
+
+
+            <div class="row">
+                <div class="col-lg-12"><h5 class="lg_font_color">Benefits of Commodity Trading with Qorva Markets</h5></div>
+                <div class="col-lg-3">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">1. Portfolio Diversification</h5>
+                        <p>Commodities provide an excellent way to hedge against inflation and diversify your portfolio.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">2. High Liquidity Markets</h5> 
+                        <p>The commodity markets offer high liquidity, allowing traders to quickly buy or sell assets at competitive prices.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">3. Market Volatility Opportunities</h5> 
+                        <p>Leverage price fluctuations caused by global events, economic policies, and natural disasters to secure potential profits.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">4. Hedge Against Inflation</h5> 
+                        <p>Commodity prices often rise during periods of inflation, offering a protective shield for your investments.</p>
+                    </div>
+                </div>
+            </div> 
  
-
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">Why Commodities are Crucial in Global Markets</h5>
+                        <p>Commodities are the backbone of global trade, impacting industries and economies worldwide. They’re influenced by supply and demand dynamics, geopolitical events, and seasonal trends. By trading with Qorva Markets, you gain access to a transparent and efficient platform designed to navigate these factors effectively.
+                        </p>
                     </div>
                 </div>
-                
             </div>
 
+            <div class="row">
+                <div class="col-lg-12"><h5 class="lg_font_color">The Qorva Advantage in Commodity Trading</h5></div>
+                <div class="col-lg-4">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">Global Market Access</h5>
+                        <p>Trade commodities from international markets without the barriers of geographic limitations.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">Beginner-Friendly Features</h5> 
+                        <p>Our intuitive platform and educational content ensure that even novice traders can confidently enter the commodities market.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">Expert Support and Guidance</h5> 
+                        <p>Get assistance from our dedicated team of professionals who are always ready to help you succeed.</p>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="sdo_div">
+                        <h5 class="lg_font">Start Trading Commodities Today with Qorva Markets</h5> 
+                        <p>Unlock the potential of commodity trading by signing up with Qorva Markets. Whether you’re looking to invest in gold, speculate on oil prices, or trade agricultural futures, our platform provides the tools, support, and expertise you need.</p>
+
+                        <h5 class="lg_font">Sign Up Now and explore the global commodity markets with Qorva Markets!</h5>
+                        
+                    </div>
+                </div>
+             
+            </div> 
 
         </div>
     </section>
-
 
 
 

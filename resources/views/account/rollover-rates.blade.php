@@ -6,8 +6,8 @@
                 <!--start heading-->
                 <div class="col-lg-10 offset-lg-1">
                     <div class="banner-content text-center">
-                        <h1>Rollover Rates                        </h1>
-                        <p><a href="#">Home</a> <span> &gt; </span>Rollover Rates</p>
+                        <h1>Rollover-rates</h1>
+                        <p><a href="#">Home</a> <span> &gt; </span>Rollover-rates</p>
                     </div>
                 </div>
                 <!--end heading-->
@@ -17,23 +17,33 @@
 
 <section class="about-area c_text">
         <div class="container">
-             
-            <div class="row">              
+            <div class="row">
                 <div class="col-lg-12">
-                    <div class="sdo_div_sec">
-                        <h2>Rollover Rates</h2>
-                        <p>Rollovers are typically the interest charged or earned for holding positions overnight. We strive to keep your trading costs low by sourcing institutional rollover rates and pass them to you at a competitive price.</p>
-                        
-                        <h2>Key Benefits of Rollover Rates</h2>
-                        <p class="mb-3">You can earn or pay when a rollover is applied to your position</p>
-                        <p class="mb-3">Rollovers are only applied to open trades at 5pm ET</p>
-                        <p class="mb-3">Other brokers may calculate rolls continuously, raising your trading costs</p>
-
-                        </div>
+                    <div class="sdo_div">
+                        <h5 class="lg_font">Rollover Rates</h5>
+                        <p>Rollovers are typically the interest charged or earned for holding positions overnight. We strive to keep your trading costs low by sourcing institutional rollover rates and pass them to you at a competitive price.
+                        </p>
+                    </div>
                 </div>
-            </div>
 
- 
+                <div class="col-lg-12">
+                    <div class="sdo_div">
+                    <h5 class="lg_font_color">Key Benefits of Rollover Rates</h5>
+                    <p>You can earn or pay when a rollover is applied to your position</p>
+
+                    <p>Rollovers are only applied to open trades at 5pm ET</p>
+
+                    <p>Other brokers may calculate rolls continuously, raising your trading costs</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <br>
+             
+
+
+
 
 
         </div>

@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-md-6"><br><br>
                     <div class="about-img1">
-                        <img src="uploads/bg.png" class="img_res" alt="image">
+                        <img src="{{ asset('') }}uploads/bg.png" class="img_res" alt="image">
                          
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                 </div>      
                  <div class="col-md-6"><br><br>
                     <div class="about-img1">
-                        <img src="uploads/where-we-source-our-prices.jpg" class="img_res" alt="image">
+                        <img src="{{ asset('') }}uploads/where-we-source-our-prices.jpg" class="img_res" alt="image">
                          
                     </div>
                 </div>          
@@ -73,7 +73,7 @@
             <div class="row">
                 <div class="col-md-6"><br><br>
                     <div class="about-img1">
-                        <img src="uploads/how-we-deliver-our-prices.webp" class="img_res" alt="image">
+                        <img src="{{ asset('') }}uploads/how-we-deliver-our-prices.webp" class="img_res" alt="image">
                          
                     </div>
                 </div>
@@ -122,4 +122,5 @@
             </div>
         </div>
     </section>
+   
 @endsection
