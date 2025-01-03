@@ -7,7 +7,7 @@
     line-height: 55px;
     color: #000;
     font-weight: 700;
-    margin-top: -87px;
+    /* margin-top: -87px; */
 }
 </style>
 <section class="hero-area two" style="background-image: url(uploads/trading.jpg); background-size: 100% 100%;padding: 0;    height: auto;">

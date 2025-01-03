@@ -8,7 +8,7 @@
     line-height: 55px;
     color: #000;
     font-weight: 700;
-    margin-top: -40px;
+    margin-top: 120px;
 }
 </style>
     <section class="hero-area two" style="background-image: url(uploads/banner-5.jpg); background-size: 100% 100%;padding: 0;    height: auto;">
