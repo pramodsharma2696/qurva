@@ -1,27 +1,37 @@
 @extends('master')
 @section('contents')
-<!--start hero area-->
-<section class="hero-area two" style="background-image: url(uploads/banner-5.jpg);padding: 100px 0;">
-    <div class="container">
-        <div class="row">
-            <!--start heading-->
-            <div class="col-lg-10">
-                <div class="caption-content two">
 
-                    <h2>Trade Stocks Confidently <br> with Qorva Markets</h2>
+<style>
+    .caption-content h2 {
+    font-size: 70px;
+    line-height: 55px;
+    color: #000;
+    font-weight: 700;
+    margin-top: -87px;
+}
+</style>
+<section class="hero-area two" style="background-image: url(uploads/trading.jpg); background-size: 100% 100%;padding: 0;    height: auto;">
+        <div class="overlay_two">    
+            <div class="container">
+                <div class="row">
+                    <!--start heading-->
+                    <div class="col-lg-10">
+                        <div class="caption-content two">
+                        <h2>Trade Stocks Confidently <br> with Qorva Markets</h2>
                     <p>Welcome to Qorva Markets, your gateway to the exciting world of **stock trading**. Whether you're an experienced trader or exploring stock investments for the first time, we offer a platform built for simplicity, performance, and profitability.
                     </p>
-                    <ul>
-                        <li><a href="#">Register</a></li>
-                        <li><a class="btn-bg" href="#">Try Demo</a></li>
-                    </ul>
-                    <img class="banner_sec" src="{{ asset('') }}uploads/banner1.png">
+                            <ul>
+                                <li><a href="#">Register</a></li>
+                                <li><a class="btn-bg" href="#">Try Demo</a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <!--end heading-->
                 </div>
             </div>
-            <!--end heading-->
         </div>
-    </div>
-</section>
+    </section>
 
 
 

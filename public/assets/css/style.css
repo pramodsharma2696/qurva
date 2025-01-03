@@ -1013,13 +1013,14 @@ background-color: #f5fafe;
     font-weight: 600;
 }
 
-.caption-content h2 {
+/* .caption-content h2 {
     font-size: 70px;
-    line-height: 77px;
+    line-height: 73px;
     color: #000;
     font-weight: 700;
-    margin-bottom: 20px;
-}
+    margin-top: -50px;
+} */
+
 
 .caption-content p {
     color: #000;
@@ -4785,4 +4786,18 @@ img.faq_res {
 .footer-bottom-area {
     background: #1673c7;
     padding: 20px 0;
+}
+
+
+.overlay_two {
+    padding: 125px 0;
+    height: 70vh;
+    background-color: #000000a6;
+    /* background-color: #00000094; */
+}
+.overlay_two .caption-content.two h2 {
+    color: #fff !important;
+}
+.overlay_two .caption-content.two p {
+    color: #fff !important;
 }

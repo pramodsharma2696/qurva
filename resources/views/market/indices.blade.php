@@ -1,29 +1,40 @@
 @extends('master')
 @section('contents')
  <!--start hero area-->
- <section class="hero-area two" style="background-image: url(uploads/banner-5.jpg);padding: 100px 0;">
-        <div class="container">
-            <div class="row">
-                <!--start heading-->
-                <div class="col-lg-10">
-                    <div class="caption-content two">
-                        
+<style>
+    .caption-content h2 {
+    font-size: 70px;
+    line-height: 55px;
+    color: #000;
+    font-weight: 700;
+    margin-top: -87px;
+}
+</style>
+
+
+    <section class="hero-area two" style="background-image: url(uploads/indices-explained.png); background-size: 100% 100%;padding: 0;    height: auto;">
+        <div class="overlay_two">    
+            <div class="container">
+                <div class="row">
+                    <!--start heading-->
+                    <div class="col-lg-10">
+                        <div class="caption-content two">
                         <h2>Indices Trading with<br> Qorva Markets
                         </h2>
                         <p>Experience seamless trading with Qorva Markets, where global stock market indices are just a click away. Whether you're tracking the performance of the S&P 500, analysing trends in the FTSE 100, or exploring Asian markets like the Nikkei 225, our platform equips you with the tools and insights to trade indices efficiently.                        </p>
-                        <ul>
-                            <li><a href="#">Register</a></li>
-                            <li><a class="btn-bg" href="#">Try Demo</a></li>
-                        </ul>
-                        <img class="banner_sec" src="{{ asset('') }}uploads/banner1.png">
+
+                            <ul>
+                                <li><a href="#">Register</a></li>
+                                <li><a class="btn-bg" href="#">Try Demo</a></li>
+                            </ul>
+                            
+                        </div>
                     </div>
+                    <!--end heading-->
                 </div>
-                <!--end heading-->
             </div>
         </div>
     </section>
-
-
     
 
     <!--end hero area-->
