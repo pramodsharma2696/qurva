@@ -21,7 +21,7 @@
 
                 <div class="col-md-6">
                     <div class="about-img1">
-                        <img src="{{ asset('') }}uploads/img2.jpg" class="img_res" alt="image">
+                        <img src="{{ asset('') }}uploads/new/accounts/23.png" class="img_res" alt="image">
                          
                     </div>
                 </div>

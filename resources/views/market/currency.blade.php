@@ -11,7 +11,7 @@
     margin-top: 120px;
 }
 </style>
-    <section class="hero-area two" style="background-image: url(uploads/banner-5.jpg); background-size: 100% 100%;padding: 0;    height: auto;">
+    <section class="hero-area two" style="background-image: url(uploads/new/currency/2.png); background-size: 100% 100%;padding: 0;    height: auto;">
         <div class="overlay_two">    
             <div class="container">
                 <div class="row">
@@ -80,7 +80,7 @@
 
                 <div class="col-md-5">
                     <div class="about-img1">
-                        <img src="{{ asset('') }}uploads/img2.jpg" class="img_res" alt="image">
+                        <img src="{{ asset('') }}uploads/new/currency/1.jpg" class="img_res" alt="image">
                          
                     </div>
                 </div>
@@ -212,7 +212,7 @@
 
                 <div class="col-md-5">
                     <div class="about-img1">
-                        <img src="{{ asset('') }}uploads/img2.jpg" class="img_res" alt="image">                         
+                        <img src="{{ asset('') }}uploads/new/currency/4.jpg" class="img_res" alt="image">                         
                     </div>
                 </div>
 
@@ -226,7 +226,7 @@
             <div class="row">
             <div class="col-md-5">
                     <div class="about-img1">
-                        <img src="{{ asset('') }}uploads/img2.jpg" class="img_res" alt="image">                         
+                        <img src="{{ asset('') }}uploads/new/currency/6.jpg" class="img_res" alt="image">                         
                     </div>
                 </div>
                  <div class="col-md-7">

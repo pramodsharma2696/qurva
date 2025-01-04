@@ -31,12 +31,12 @@
             <div class="row">
                 <div class="col-md-6"><br><br>
                     <div class="about-img1">
-                        <img src="{{ asset('') }}uploads/bg.png" class="img_res" alt="image">
+                        <img src="{{ asset('') }}uploads/new/transparent/30.png" class="img_res" alt="image">
                          
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="sdo_div_sec">
+                    <div class="sdo_div_sec" style="margin-top: 125px;">
 
                         <h2>Consistently fast and accurate pricing</h2>
 
@@ -62,7 +62,7 @@
                 </div>      
                  <div class="col-md-6"><br><br>
                     <div class="about-img1">
-                        <img src="{{ asset('') }}uploads/where-we-source-our-prices.jpg" class="img_res" alt="image">
+                        <img src="{{ asset('') }}uploads/new/transparent/28.png" class="img_res" alt="image">
                          
                     </div>
                 </div>          
@@ -73,7 +73,7 @@
             <div class="row">
                 <div class="col-md-6"><br><br>
                     <div class="about-img1">
-                        <img src="{{ asset('') }}uploads/how-we-deliver-our-prices.webp" class="img_res" alt="image">
+                        <img src="{{ asset('') }}uploads/new/transparent/27.png" class="img_res" alt="image">
                          
                     </div>
                 </div>
